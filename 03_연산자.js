@@ -51,13 +51,13 @@
 // console.log(b);
 //얘는 앞에서 연산자가 붙어서 그 행에서 바로 연산을 해버림 그랠서 --b가 0이됨.
 
-//논리 연산자
-let boolA = true;
-let boolB = false;
+// //논리 연산자
+// let boolA = true;
+// let boolB = false;
 
-console.log(boolA || boolB);
-// 이건 or연산임.
-console.log(boolA && boolB);
-// 이건 and연산임.
-console.log(!boolA);
-// 이건 not연산임.
+// console.log(boolA || boolB);
+// // 이건 or연산임.
+// console.log(boolA && boolB);
+// // 이건 and연산임.
+// console.log(!boolA);
+// // 이건 not연산임.
