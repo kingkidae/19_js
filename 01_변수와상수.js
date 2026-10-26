@@ -42,10 +42,7 @@
 // let salesCount / 카멜 표기법
 // let sales_count / 스네이크 표기법
 
-let salesCount = 1;
-let refundCount = 1;
-let totalSalesCount = salesCount - refundCount;
-console.log(totalSalesCount);
-
-자료형과 원시자료형
-
+// let salesCount = 1;
+// let refundCount = 1;
+// let totalSalesCount = salesCount - refundCount;
+// console.log(totalSalesCount);

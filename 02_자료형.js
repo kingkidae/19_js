@@ -91,21 +91,33 @@
 // let num = 2022;
 // let str = String(num);
 // 숫자였다가 문자로 바뀜
-// console.log(str);
-// console.log(typeof str);
+// // console.log(str);
+// // console.log(typeof str);
 
-let varA;
-let varB = null;
-let varC = true;
+// let varA;
+// let varB = null;
+// let varC = true;
 
-// console.log(typeof varA);
-// console.log(typeof varB);
-// console.log(typeof varC);
+// // console.log(typeof varA);
+// // console.log(typeof varB);
+// // console.log(typeof varC);
 
-let strA2 = String(varA);
-let strA = String(varB);
-let strA = String(varC);
+// let strA = String(varA);
+// let strA = String(varB);
+// let strA = String(varC);
 
-console.log(strA2);
-console.log(strB);
-console.log(strC);
+// console.log(strA);
+// console.log(strB);
+// console.log(strC);
+
+let varA = "하이";
+let varB = 0;
+let varC = "";
+
+let boolA = Boolean(varA);
+let boolB = Boolean(varB);
+let boolC = Boolean(varC);
+
+console.log(boolA);
+console.log(boolB);
+console.log(boolC);
