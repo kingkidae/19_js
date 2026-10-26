@@ -121,3 +121,38 @@
 // console.log(boolA);
 // console.log(boolB);
 // console.log(boolC);
+
+// 비교연산자
+// let numberA = 2;
+// let numberB = 2;
+// let numberC = "2";
+// console.log(numberA === numberB);
+// console.log(numberB === numberC);
+// console.log(numberB !== numberC);
+
+// console.log(numberA == numberB)
+// console.log(numberB == numberC)
+// // 등호 2개면 데이터 타입을 따지지않고 같은지 다른지만 봄
+// console.log(numberA !== numberB);
+// console.log(numberA > numberB);
+// console.log(numberA >= numberB);
+
+// null 병합 연산자
+
+// let varA = 10;
+// let varB = 20;
+// let varC;
+
+// console.log(varA ?? varB);
+// console.log(varC ?? varB);
+// or과 ?? 이 두개가 같다.
+
+// 삼항 조건 연산자
+
+// const varA = '안녕하세요'
+// typeof varA === "string" ?
+// ? console.log("문지지료형"), console.log(문자자료형이 아님.)
+
+// let num = 1;
+// num % 2 === 0 ? "짝수" : "홀수"
+// //
