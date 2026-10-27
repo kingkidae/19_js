@@ -20,8 +20,8 @@
 // };
 // console.log(person);
 
-// 프로퍼티 = 객체의 변수
-// 메소드 = 객체의 함수
+// 프로퍼티 = 객체의 변수를 속성이라고 함.
+// 메소드 = 객체의 함수를 메소드라고 함.
 
 // console.log(person.name);
 // // 속성을 가져올 때는 대괄호 없이 점찍고 가져오면 됨
@@ -89,17 +89,17 @@
 
 // let person = {
 //   age: 10,
+// // };
+
+// // let isNameExist = "name" in person;
+// // console.log(isNameExist);
+
+// //매서드 : 객체의 함수  객체에는 변수와 함수가 있음.
+// let person = {
+//   name: "김기대",
+//   sayHi: function () {
+//     // => () => console.log("hi")로도 쓸 수 있음.
+//     console.log("hi");
+//   },
 // };
-
-// let isNameExist = "name" in person;
-// console.log(isNameExist);
-
-//매서드 : 객체의 함수  객체에는 변수와 함수가 있음.
-let person = {
-  name: "김기대",
-  sayHi: function () {
-    // => () => console.log("hi")로도 쓸 수 있음.
-    console.log("hi");
-  },
-};
-person.sayHi();
+// person.sayHi();
