@@ -100,7 +100,7 @@ const varA = 0;
 const varB = "kayD";
 
 const resultA = varA || varB; // a는 펄지한값, b는 트루디한 값이라 or연산의 결과로 kayD라는 값을 리절트 a에 저장
-const resultB = varA ?? varB;
+const resultB = varA ?? varB; // undifined와 null한 값이면 넘어가라는 거라서 a가 0으로 확실히 정해져 있어서 0이 반환되는 것임.
 
 console.log(resultA);
 console.log(resultB);
