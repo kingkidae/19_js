@@ -161,22 +161,22 @@
 // const greetingText = greeting("김기대");
 // console.log(greetingText);
 
-let isConfirm = true;
+// let isConfirm = true;
 
-function confirm(onYes, onNo) {
-  // let onYes = () => console.log("승인")은 confirm(() => console.log("승인"), () => console.log("거부"))와 같음
-  if (isConfirm) onYes();
-  else onNo();
-}
-
-// if (isconfirm) {
-//   onYes();
-// } else {
-//   onNo();
+// function confirm(onYes, onNo) {
+//   // let onYes = () => console.log("승인")은 confirm(() => console.log("승인"), () => console.log("거부"))와 같음
+//   if (isConfirm) onYes();
+//   else onNo();
 // }
-// 위와 같다
 
-confirm(
-  () => console.log("승인"),
-  () => console.log("거부"),
-);
+// // if (isconfirm) {
+// //   onYes();
+// // } else {
+// //   onNo();
+// // }
+// // 위와 같다
+
+// confirm(
+//   () => console.log("승인"),
+//   () => console.log("거부"),
+// );

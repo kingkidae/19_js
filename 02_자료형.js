@@ -86,7 +86,7 @@
 
 // let numA = parseInt(strA, 10);
 // let numB = parseInt(strB, 10);
-// 팔스인트는 에러가 나지않으면 출력해라 라는 의미임
+// 팔스인트(변수명, n진수)
 
 // let num = 2022;
 // let str = String(num);
