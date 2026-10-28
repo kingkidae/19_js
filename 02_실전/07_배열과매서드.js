@@ -59,3 +59,102 @@
 // console.log(...arrC);
 
 //순회 매소드
+// 기본 구조
+// function cb(item, index, array) {
+//     //수행할 코드
+// }
+// arr.foreach(cb)
+
+// function cb(item, idx) {
+//   console.log(`${idx + 1}번째 요소: ${item}`);
+// }
+// const arr = [3, 7, 2];
+// arr.forEach(cb);
+
+//탐색 메소드 배열에서 찾으려는 요소의 인덱스를 반환하는 메소드
+//arr.indexOf(item, fromIndex);
+
+// let arr = [1, 3, 5, 7, 1];
+// console.log(arr.indexOf(1, 0));
+// console.log(arr.indexOf(1, -1));
+// console.log(arr.indexOf(4, 0)); //없을 때에는 -1을 리턴함.
+// console.log(arr.indexOf(7, 9)); //없을 때에는 -1을 리턴함.
+// console.log(arr.indexOf("3", 0)); //없을 때에는 -1을 리턴함.
+
+// //includes 포함 여부를 알려주는 매소드
+// let arr = [1, 3, 5, 7, 1];
+// console.log(arr.includes(3));
+// console.log(arr.includes("생선"));
+
+//find index 인덱스 넘버를 가져오는 매소드
+// function datemine(item, idx, arr) {
+//   //   console.log(idx);
+//   //   console.log(arr);
+//   if (item % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// let arr = [1, 3, 5, 6, 8];
+// let index = arr.findIndex(datemine);
+// console.log(index);
+
+// let arr = [1, 3, 5, 6, 8];
+// arr.findIndex((item) => (item % 2 === 0 ? true : false));
+// // let datetime = (item) => (item % 2 == 0 ? true : false); // 이 두개는 서로 강음
+// console.log(item);
+
+// let arr = [
+//   { name: "이종원" },
+//   { name: "이장환" },
+//   { name: "신다민" },
+//   { name: "김효빈" },
+// ];
+
+// let index = arr.findIndex((item) => {
+//   return item.name === "이종원";
+// });
+
+// console.log(index);
+
+//find 메소드
+
+// let arr = [
+//   { name: "이종원" },
+//   { name: "이장환" },
+//   { name: "신다민" },
+//   { name: "김효빈" },
+// ];
+
+// let element = arr.find((item) => item.name === "이종원");
+// console.log(element);
+
+// let arr = [
+//   { name: "이종원", hobby: "축구" },
+//   { name: "이정환", hobby: "영화" },
+//   { name: "신다민", hobby: "축구" },
+//   { name: "김효빈", hobby: "노래" },
+// ];
+// //아이템이 객체, 프로퍼티는 하비 //앞에가 배열일 때 쓰는 함수
+// let filtered = arr.filter((item) => item.hobby === "축구");
+
+// console.log(filtered);
+
+// //map
+
+// let arr = [1, 2, 3, 4];
+
+// let newArr = arr.map((item) => item * 3);
+// console.log(newArr);
+
+let arr = [
+  { name: "이종원", hobby: "축구" },
+  { name: "이정환", hobby: "영화" },
+  { name: "신다민", hobby: "축구" },
+  { name: "김효빈", hobby: "노래" },
+];
+
+let newArr = arr.map((item) => item.name);
+console.log(newArr);
