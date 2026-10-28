@@ -96,11 +96,11 @@
 // const name = "kayD" || undefined; //참은 아니지만 트루디한 값이기 떄문에 굳이 뒤까지 넘어가지 않음.
 // console.log(name);
 
-const varA = 0;
-const varB = "kayD";
+// const varA = 0;
+// const varB = "kayD";
 
-const resultA = varA || varB; // a는 펄지한값, b는 트루디한 값이라 or연산의 결과로 kayD라는 값을 리절트 a에 저장
-const resultB = varA ?? varB; // undifined와 null한 값이면 넘어가라는 거라서 a가 0으로 확실히 정해져 있어서 0이 반환되는 것임.
+// const resultA = varA || varB; // a는 펄지한값, b는 트루디한 값이라 or연산의 결과로 kayD라는 값을 리절트 a에 저장
+// const resultB = varA ?? varB; // undifined와 null한 값이면 넘어가라는 거라서 a가 0으로 확실히 정해져 있어서 0이 반환되는 것임.
 
-console.log(resultA);
-console.log(resultB);
+// console.log(resultA);
+// console.log(resultB);
