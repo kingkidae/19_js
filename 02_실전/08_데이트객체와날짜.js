@@ -61,3 +61,34 @@
 // date.setMonth(10);
 // date.setDate(11);
 // console.log(date);
+
+//toString
+// const today = new Date(2000, 9, 10, 22);
+// console.log(today.toString()); // 시간까지 다 나옴
+
+// //toDateString
+// const today = new Date(2000, 9, 10, 22);
+// console.log(today.toDateString()); // 시간 제외하고 나옴
+
+//toLocaleString, toLocalDateString
+// const today = new Date(2000, 9, 10, 22); // 한국어로 됨.
+// console.log(today.toLocaleString());
+// console.log(today.toLocaleDateString()); // 시간은 안나옴 한국어로 일자 나옴.
+
+//date 객체 응용하기
+function moveMonth(date, moveMonth) {
+  const curTimestamp = date.getTime();
+  const curMonth = date.getMonth();
+  const resDate = new Date(curTimestamp);
+  resDate.setMonth(curMonth + moveMonth);
+  return resDate;
+}
+
+const dateA = new Date("2000-10-10");
+console.log("A: ", dateA);
+
+const dateB = moveMonth(dateA, 1);
+console.log("B", dateB);
+
+const dateC = moveMonth(dateA, -1);
+console.log("C", dateC);
